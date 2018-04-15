@@ -1,6 +1,6 @@
 # github-
 
-# 配置Git
+### 配置Git
 
 > $ ssh-keygen -t rsa -C "your_email@youremail.com"
 
@@ -9,8 +9,9 @@
 
 之后回到github，add SSH key
 
-# 验证是否成功
+### 验证是否成功
 >ssh -T git@github.com
+
 第一次会提示是否continue， 输入yes 会看到：You've successfully...表示已经连上github
 接下来要做的就是把本地仓库传到github上，在此之前要设置username和email， 因为github每次commit都会记录他们
 
