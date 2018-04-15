@@ -16,3 +16,13 @@
 接下来要做的就是把本地仓库传到github上，在此之前要设置username和email， 因为github每次commit都会记录他们
 
 >$git config --global user.name "your name"
+  git cofig -- global user.email "your_email@youremail.com"
+  
+ 进入要上传的仓库，右键gitbash，添加远程地址
+ >$ git remote add origin git@github.com:yourName/yourRepo.git
+ 
+ 后面的yourNamr和yourRepo表示你在github的用户名和刚才新建的仓库，甲烷之后进入.git,打开config，会多出一个 remote “origin”
+ 内容，这就是刚才添加的远程地址，也可以直接修改config来配置远程地址。
+ 创建新文件夹，打开，然后执行 git init以创建新的git仓库
+ 
+ 
